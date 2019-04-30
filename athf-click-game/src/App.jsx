@@ -10,7 +10,7 @@ class App extends Component {
   state = {
     score: 0,
     topScore: 0,
-    maxScore: 12,
+    maxScore: 3,
     message: "Click on any character to start!",
     characters: athf,
     clickedArr: []
@@ -24,35 +24,36 @@ class App extends Component {
       arr[j] = temp;
     }
   }
+  checkWin = () => {
+    if (this.state.score === (this.state.characters.length - 1)) {
+      alert("You win! Congratulations")
+      this.resetGame();
+    }
+  }
 
-  resetGame() {
+  resetGame = () => {
     this.setState({ score: 0, clickedArr: [] })
-    console.log(this.state.characters)
     this.randomize(this.state.characters)
   }
+
   handleCorrect = (id) => {
-    if (this.state.score === 12) {
-      this.setState({ message: "Congratulations!" })
-      this.resetGame();
-      return
-    }
-    else if (this.state.topScore === this.state.score) {
+    if (this.state.topScore === this.state.score) {
       this.state.clickedArr.push(id)
       this.setState({ message: "Correct guess!", score: this.state.score + 1, topScore: this.state.topScore + 1 })
-      console.log(this.state.clickedArr)
-      return
+      this.checkWin()
+      this.randomize(this.state.characters)
     }
     else {
       this.state.clickedArr.push(id)
-      this.setState({ message: "Correct guess!", score: + 1 })
-      return
+      this.setState({ message: "Correct guess!", score: this.state.score + 1 })
+      this.checkWin()
+      this.randomize(this.state.characters)
     }
   }
 
   handleWrong = () => {
     this.setState({ message: "You've already clicked that!" })
     this.resetGame();
-    return
   }
 
   handleClick = (event) => {
