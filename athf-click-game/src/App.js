@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Nav from "./components/NAV"
+import Card from "./components/Card"
+import Title from "./components/Title"
+import athf from "./ATHF.json"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+
+  state = {
+    athf
+  }
+
+  render() {
+    return (
+      <div>
+        <Nav />
+        <Title />
+        <div className="row">
+          {this.state.athf.map(character => (
+            <Card
+              id={character.id}
+              image={character.image}
+            />
+          ))}
+        </div>
+
+        <h5>Hello I'm Working</h5>
+      </div>
+    )
+  }
 }
 
 export default App;
