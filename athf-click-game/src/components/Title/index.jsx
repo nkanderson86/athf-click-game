@@ -5,7 +5,7 @@ import React from 'react';
 
 const Title = () => {
     return (
-        <div className='container center-align valign-wrapper'>
+        <div className='container center-align'>
             <div className='section no-pad-bot'>
                 <div className='container'>
                     <div className='row'>

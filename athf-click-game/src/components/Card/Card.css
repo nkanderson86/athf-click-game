@@ -1,5 +1,7 @@
-#card-img {
-    max-width: 100%;
-    height: auto;
+.click-image {
+    cursor: pointer;
+}
+
+.card {
     overflow: hidden;
 }
