@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d42607956dfc82e126307c8fd4de5dff",
+    "revision": "084afa0da7a6da3a06ebc13abb6664fa",
     "url": "/athf-click-game/index.html"
   },
   {
-    "revision": "6ef91d7934da545a2f80",
+    "revision": "661e65c1059d5291b6cb",
     "url": "/athf-click-game/static/css/main.d33d1e38.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/athf-click-game/static/js/2.6efc73d3.chunk.js"
   },
   {
-    "revision": "6ef91d7934da545a2f80",
-    "url": "/athf-click-game/static/js/main.e412f176.chunk.js"
+    "revision": "661e65c1059d5291b6cb",
+    "url": "/athf-click-game/static/js/main.3ea2d756.chunk.js"
   },
   {
     "revision": "da81f61c1647592d77ac",
