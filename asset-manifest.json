@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/athf-click-game/static/css/main.1904fe73.chunk.css",
-    "main.js": "/athf-click-game/static/js/main.92444dd5.chunk.js",
-    "main.js.map": "/athf-click-game/static/js/main.92444dd5.chunk.js.map",
+    "main.css": "/athf-click-game/static/css/main.d33d1e38.chunk.css",
+    "main.js": "/athf-click-game/static/js/main.e412f176.chunk.js",
+    "main.js.map": "/athf-click-game/static/js/main.e412f176.chunk.js.map",
     "runtime~main.js": "/athf-click-game/static/js/runtime~main.f5d58403.js",
     "runtime~main.js.map": "/athf-click-game/static/js/runtime~main.f5d58403.js.map",
     "static/js/2.6efc73d3.chunk.js": "/athf-click-game/static/js/2.6efc73d3.chunk.js",
     "static/js/2.6efc73d3.chunk.js.map": "/athf-click-game/static/js/2.6efc73d3.chunk.js.map",
     "index.html": "/athf-click-game/index.html",
-    "precache-manifest.03f0690a8c08ee66fce01a96798268a2.js": "/athf-click-game/precache-manifest.03f0690a8c08ee66fce01a96798268a2.js",
+    "precache-manifest.53f2339eb83a44f29005dea5b630895b.js": "/athf-click-game/precache-manifest.53f2339eb83a44f29005dea5b630895b.js",
     "service-worker.js": "/athf-click-game/service-worker.js",
-    "static/css/main.1904fe73.chunk.css.map": "/athf-click-game/static/css/main.1904fe73.chunk.css.map"
+    "static/css/main.d33d1e38.chunk.css.map": "/athf-click-game/static/css/main.d33d1e38.chunk.css.map"
   }
 }
