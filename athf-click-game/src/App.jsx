@@ -25,10 +25,29 @@ class App extends Component {
     }
   }
 
-  handleClick = () => {
-    alert("Nick needs to finish this game")
+  resetGame() {
+    this.setState({ score: 0, clickedArr: [] })
+    // this.randomize(this.characters)
+  }
+
+  handleClick = (event) => {
+    console.log(event.target.src)
+    if (this.state.clickedArr.indexOf(event.target.src) !== -1) {
+      this.setState({ message: "You've already clicked that!" })
+      this.resetGame();
+    }
+    else if (this.state.topScore === this.state.score) {
+      this.state.clickedArr.push(event.target.src)
+      this.setState({ message: "Correct guess!", score: + 1, topScore: + 1 })
+    }
+    else {
+      this.state.clickedArr.push(event.target.src)
+      this.setState({ message: "Correct guess!", score: + 1 })
+    }
 
   }
+
+
 
 
   render() {
@@ -45,6 +64,7 @@ class App extends Component {
             <Card
               key={character.id}
               image={character.image}
+              value={character.id}
               onClick={this.handleClick}
             />
           ))}

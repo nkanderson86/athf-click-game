@@ -9,8 +9,8 @@ const Title = () => {
             <div className='section no-pad-bot'>
                 <div className='container'>
                     <div className='row'>
-                        <h3 className='header col s12 light'>Clicky Game!</h3>
-                        <h5>Get points by clicking on an image, just don't click it more than once or you'll lose!</h5>
+                        <h2 className='header col s12 light'>Clicky Game!</h2>
+                        <h5>Click on your favorite Aqua Teen Hunger Force characters to score points.  Click each character only once! If you can do that twelve times without forgetting, you win! </h5>
                     </div>
                 </div>
             </div>

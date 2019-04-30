@@ -1,12 +1,8 @@
 .App {
   text-align: center;
-}
-
-.appBody {
   background-image: url('https://wallpapermemory.com/uploads/217/aqua-teen-hunger-force-background-hd-1920x1200-239499.jpg');
   background-size: cover;
 }
-
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
