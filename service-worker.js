@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/athf-click-game/precache-manifest.e659adf62e715da5fdd7d1647b61d278.js"
+  "/athf-click-game/precache-manifest.960021f2a560aa55daab0697864ac96b.js"
 );
 
 self.addEventListener('message', (event) => {
