@@ -1,7 +1,5 @@
-// import React from "react";
-// import "./Title.css";
-
-import React from 'react';
+import React from "react";
+import "./Title.css";
 
 const Title = () => {
     return (

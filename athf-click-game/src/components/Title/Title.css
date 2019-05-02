@@ -1,3 +1,10 @@
 .header {
     margin: 0 auto;
 }
+
+.container {
+    /* background-color: rgb(71, 192, 71); */
+    margin: 15px auto;
+    color: rgb(211, 211, 211);
+    
+}
